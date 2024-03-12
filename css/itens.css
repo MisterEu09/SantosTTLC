@@ -20,11 +20,6 @@
     menu a:hover{
         background-color: rgba(6, 63, 63, 0.175);
     }
-            .a3{
-        background: url(imagem/genshin/1306060-Aether-Genshin-Impact-Lumine-Genshin-ImpactGenshin.jpg) top center no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }
     .Titulo
     {
         display: block;

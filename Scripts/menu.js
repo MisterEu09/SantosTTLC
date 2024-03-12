@@ -11,11 +11,11 @@ const data = [
 
         title: "Beliche Dalia",
         description:
-            "AAAAAAAAAAAAAAA",
+            " Beliche 100% MDF com Proteção Lateral e Escada Inclusa - Dalia",
         link:
         "../html/Itens/BelicheDali.html",
         img:
-        "../dados/itens/Camas/beliche dalia.jpg"
+        "../dados/itens/Camas/BelicheDalia/belicheDalia².png"
     },
     {
 
@@ -26,6 +26,7 @@ const data = [
         "../html/Itens/BelicheDali.html",
         img:
         "../dados/itens/Camas/GRM-Master/GRM-Master.png"
+
     },
     {
 
