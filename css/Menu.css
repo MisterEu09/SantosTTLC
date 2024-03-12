@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@media screen and (min-width:150px) and (max-width: 550px) {
+    .card-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+
+        background-color: #faebd7;
+        border: 1px solid #fedbad;
+        margin: 10px;
+        padding: 10px 20px;
+        box-shadow: 0 0 8px rgba(0,0,0,0.1) ;
+    }
+    a{
+        text-decoration: none;
+        color: #1f1f1f;
+    }
+    img{
+        height: 150px;
+    }
+}

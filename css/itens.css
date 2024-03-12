@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@media screen and (min-width:150px) and (max-width: 550px) 
+{
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+
+    }
+    body{
+    background-color: #ffd72c;
+    min-height: 100vh;
+    display: inline;
+    margin: 0;
+    overflow-x: hidden; 
+    }
+    #menu a:hover{
+        background-color: #20436A;
+    }
+    menu a:hover{
+        background-color: rgba(6, 63, 63, 0.175);
+    }
+            .a3{
+        background: url(imagem/genshin/1306060-Aether-Genshin-Impact-Lumine-Genshin-ImpactGenshin.jpg) top center no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .Titulo
+    {
+        display: block;
+        width: 100vw;
+        padding: 30px;
+        display: block;
+        color: #1f1f1f;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #item{
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        overflow: hidden;  
+    }
+    .carrossel{
+        filter: drop-shadow(2px 2px 4px black);
+        height:auto;
+        width: 75vw;
+        overflow: hidden;
+    }
+    .container
+    {
+        display: flex;
+        transition: transform 0.7s ease-in-out;
+        transform: translateX(0);
+    }
+    .itemImg
+    {
+        object-fit: cover;
+        height:auto;
+        width: 80vw;/*
+        height: 41vh;*/
+    }
+    #Valores
+    {
+        margin: 10px;
+    }
+    #Valores s, #Valores h3
+    {
+        display: inline-flex;
+    }
+    #Valores s 
+    {
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+    }
+    #Valores p
+    {
+        display: inline-flex;
+        justify-content: space-between;
+        text-align: center;
+        margin: 8px;
+        font-size: 20px;
+    }
+    #Valores span
+    {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+    #valor
+    {
+        padding:5px;
+    }
+    #Diferencial, #Observações, #Medidas
+    {
+        display: none;
+    }
+    #informations
+    {
+        padding: 10px;
+        border: 0px 2px solid #1f1f1f;
+    }
+    #itens
+    {
+        display: none;
+    }
+    #menu, menu a
+    {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        background-color: #6a6920
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+</head>
+<body>
+    <header>
+        <img id="logo" src="../dados/WhatsApp Image 2024-02-29 at 13.50.52.jpeg" alt="" >
+    </header>
+    
+    <section id="login">
+        <div id="imagem">
+                <!-- Aqui vai a imagem nas CSS-->
+        </div>
+        <div id="formulario">
+            <h1>login</h1>
+            <p>
+                Seja bem vinda(o) novamente. Faça login para aceessar sua conta e poder fazer as configurações no seu ambiente
+            </p>
+            <form>
+                <div class="form-field">
+                    <span class="material-icons">person</span>
+
+                    <input type="email" name="email" id="email" placeholder="seu@email.com" onchange="onChangeEmail()"/>
+
+                     <div class="error" id="email-required-error">Email é obrigatório</div>
+                    <div class="error" id="email-invalid-error">Email é inválido</div>
+
+                </div>
+
+                <div class="form-field">
+                    <div></div>
+                    <span class="material-icons">vpn_key</span>
+                    <input type="password" name="password" id="password" placeholder="Senha" onchange="onChangePassword()"/>
+                    <div class="error" id="password-required-error">Senha é obrigatória</div>
+
+                </div>
+                <div>
+                    <button type="button" class="clear" id="recover-password-button" onclick="recoverPassword()" disabled="true">Recuperar senha</button>
+                </div>
+                <div>
+                    <button type="button" class="solid" id="login-button" disabled="true" onclick="login()">Entrar</button>
+                </div>
+                <div>
+                    <button type="button" class="btn"  onclick="register()">Registrar
+                        <span class="material-icons"id="email">mail</span></button>
+                </div>
+            </form>
+        </div>
+            <a href=></a>
+    </body>
+    
+    <link rel="stylesheet" href="../css/Home.css">
+    <link rel="stylesheet" href="../css/geral.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth-compat.js"></script>
+    
+    <script src="../Scripts/firebase-intit.js"></script>
+
+    <script src="../Scripts/validations.js"></script>
+    
+    <script src="../Scripts/load.js"></script>
+    <script src="../Scripts/Home.js"></script>
+</html>

@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@media screen and (min-width:150px) and (max-width: 550px) 
+{
+    nav
+    {
+        background-color: #1f1f1f;
+        height: auto;
+        width: 97vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav img
+    {
+        padding: auto;
+        height: 5vh;
+    }
+    nav input 
+    {
+        height: 7vh;
+    }
+    .search-text
+    {
+        padding: 0;
+        background: none;
+        border: 0;
+        outline: 0;
+        color: aliceblue;
+        font-size: 16px;
+        width: 0;
+        transition: 0.4s;
+    }
+    .search-box
+    {
+       width: auto; 
+        display: inline-flex;
+        justify-content: space-between;
+        text-align: end;
+        background-color: rgb(22, 75, 75);
+        border-radius: 40px;
+        height: 50px;
+
+    }
+    ::-webkit-input-placeholder
+    {
+        font-size: 16px;
+        
+    }
+    #Box-Pesquisa:hover > .search-text
+    {
+        width: 33vw;
+        cursor: pointer;
+        padding-left: 25px; 
+    }
+    #Box-Pesquisa:hover > .search-btn 
+    {
+        background-color:  transparent;
+    }
+    #Box-Pesquisa:hover > .search-btn .lupa-white
+    {
+       display: block;
+    }
+    #Box-Pesquisa:hover > .search-btn .lupa-yellow
+    {
+       display: none;
+    }
+    .search-btn
+    {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav section
+    {    
+        border-radius: 5%;
+        display: inline-flex;
+        align-items: center;
+        text-align: left;
+    }
+    .lupa-white
+    {
+        display: none;
+    }
+    button
+    {
+        color: aliceblue;
+        height: 50px;
+        width: 50px;
+        background-color: transparent;
+        border: 0;
+        box-shadow: none;
+    }
+    button:hover
+    {/*
+        background-color: #292929;*/
+        transition: 0.1s;
+        cursor: pointer;
+        box-shadow: 2px 2px#000000;
+        border: 100px;
+    }
+}
