@@ -19,13 +19,13 @@ const data = [
     },
     {
 
-        title: "Beliche Dalia",
+        title: "Guarda Roupa Modulado Casal e Queen Master",
         description:
             "AAAAAAAAAAAAAAA",
         link:
         "../html/Itens/BelicheDali.html",
         img:
-        "../dados/itens/Camas/beliche dalia.jpg"
+        "../dados/itens/Camas/GRM-Master/GRM-Master.png"
     },
     {
 
